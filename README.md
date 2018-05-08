@@ -67,12 +67,23 @@ The steps below should work on every target system. You only need to specify a d
 > cd [libgdx-snippets]/src/main/native/jni/
 ```
 
-**To install fips plus dependencies (one-time):**
+**To install fips (one-time):**
 
 ```shell
 # this will install fips
 > ./fips
+```
+**Check fips and jni dependencies(one-time)**
 
+```shell
+#check dependencies of fips
+> ./fips diag tools
+> ./fips jni diag
+```
+
+**fips install dependencies(one-time)**
+
+```shell
 # fetch dependencies
 > ./fips fetch
 
@@ -107,7 +118,7 @@ The steps below should work on every target system. You only need to specify a d
 ```
 
 > Note: *fips-jni* uses *gdx-jnigen* to generate native code from C++ embedded in Java source files. *Gdx-jnigen* parses both ```.java``` and ```.class``` files. This means that, to compile the native library successfully, it is required to compile the Java code first, e.g. via ```mvn compile``` from the root folder, or from inside your favourite IDE.
-
+> Note linux: if gl(x).h can't be found you might need to install ```mesa-common-dev```.
 **To copy the compiled runtime library:**
 
 ```shell
