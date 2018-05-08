@@ -49,11 +49,14 @@ public class MyGdxGameAdapter extends ApplicationAdapter {
 
 ### Java package
 
-This is a Maven project. Just use ```mvn package``` or ```mvn install``` to create a snapshot.
+This is a Maven project. Just use ```mvn package``` or ```mvn install``` to create a snapshot. In the pom.xml file you have to change the ```${gdx.version}``` to the current one or the one you are using.
 
 ### Native libraries
 
 This library uses the [fips](http://floooh.github.io/fips/) cmake build wrapper to compile the native source code. Please read the [list of requirements](http://floooh.github.io/fips/getstarted.html) to run fips (in short: Python 2.7.9, cmake 2.8.11+, and an appropriate C++ compiler environment). In addition, Maven and Java are required for the [fips-jni](https://github.com/code-disaster/fips-jni) module.
+
+```shell
+
 
 The steps below should work on every target system. You only need to specify a different build target.
 
@@ -84,10 +87,13 @@ The steps below should work on every target system. You only need to specify a d
 > ./fips list configs
 
 # e.g. for Windows 64 bit, using VS2013
-> ./fips set config win64-vs2013-release
+> fips set config win64-vs2013-release
 
 # or, for OS X, using XCode
 > ./fips set config osx-xcode-release
+
+#or, for linux, using Make
+> ./fips set config linux-make-release
 ```
 
 **To compile the native library:**
@@ -110,6 +116,9 @@ The steps below should work on every target system. You only need to specify a d
 
 # or, for OS X
 > mvn install -Posx-xcode
+
+#or, for linux 64 bit
+> mvn install -Plinux64-make
 ```
 
 > Note: this copies the compiled runtime library to ```[libgdx-snippets]/src/main/resources```.
