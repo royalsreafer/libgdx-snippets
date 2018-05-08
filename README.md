@@ -55,9 +55,6 @@ This is a Maven project. Just use ```mvn package``` or ```mvn install``` to crea
 
 This library uses the [fips](http://floooh.github.io/fips/) cmake build wrapper to compile the native source code. Please read the [list of requirements](http://floooh.github.io/fips/getstarted.html) to run fips (in short: Python 2.7.9, cmake 2.8.11+, and an appropriate C++ compiler environment). In addition, Maven and Java are required for the [fips-jni](https://github.com/code-disaster/fips-jni) module.
 
-```shell
-
-
 The steps below should work on every target system. You only need to specify a different build target.
 
 **The root folder for the native code is located in ```[libgdx-snippets]/src/main/native/jni/```.**
