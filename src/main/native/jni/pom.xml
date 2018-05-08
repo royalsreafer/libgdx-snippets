@@ -29,7 +29,7 @@
                 <configuration>
                   <fileSets>
                     <fileSet>
-                      <sourceFile>../fips-deploy/gdx-snippets-native/win64-vs2015-release/gdx-snippets-native.dll</sourceFile>
+                      <sourceFile>../fips-deploy/jni/win64-vs2015-release/gdx-snippets-native.dll</sourceFile>
                       <destinationFile>../../resources/gdx-snippets64.dll</destinationFile>
                     </fileSet>
                   </fileSets>
@@ -59,7 +59,7 @@
                 <configuration>
                   <fileSets>
                     <fileSet>
-                      <sourceFile>../fips-deploy/gdx-snippets-native/win32-vs2015-release/gdx-snippets-native.dll</sourceFile>
+                      <sourceFile>../fips-deploy/jni/win32-vs2015-release/gdx-snippets-native.dll</sourceFile>
                       <destinationFile>../../resources/gdx-snippets.dll</destinationFile>
                     </fileSet>
                   </fileSets>
@@ -89,7 +89,7 @@
                 <configuration>
                   <fileSets>
                     <fileSet>
-                      <sourceFile>../fips-deploy/gdx-snippets-native/win64-vs2013-release/gdx-snippets-native.dll</sourceFile>
+                      <sourceFile>../fips-deploy/jni/win64-vs2013-release/gdx-snippets-native.dll</sourceFile>
                       <destinationFile>../../resources/gdx-snippets64.dll</destinationFile>
                     </fileSet>
                   </fileSets>
@@ -119,7 +119,7 @@
                 <configuration>
                   <fileSets>
                     <fileSet>
-                      <sourceFile>../fips-deploy/gdx-snippets-native/win32-vs2013-release/gdx-snippets-native.dll</sourceFile>
+                      <sourceFile>../fips-deploy/jni/win32-vs2013-release/gdx-snippets-native.dll</sourceFile>
                       <destinationFile>../../resources/gdx-snippets.dll</destinationFile>
                     </fileSet>
                   </fileSets>
@@ -149,7 +149,7 @@
                 <configuration>
                   <fileSets>
                     <fileSet>
-                      <sourceFile>../fips-deploy/gdx-snippets-native/osx-xcode-release/libgdx-snippets-native.dylib</sourceFile>
+                      <sourceFile>../fips-deploy/jni/osx-xcode-release/libgdx-snippets-native.dylib</sourceFile>
                       <destinationFile>../../resources/libgdx-snippets.dylib</destinationFile>
                     </fileSet>
                   </fileSets>
@@ -179,7 +179,7 @@
                 <configuration>
                   <fileSets>
                     <fileSet>
-                      <sourceFile>../fips-deploy/gdx-snippets-native/linux-make-release/libgdx-snippets-native.so</sourceFile>
+                      <sourceFile>../fips-deploy/jni/linux-make-release/libgdx-snippets-native.so</sourceFile>
                       <destinationFile>../../resources/libgdx-snippets64.so</destinationFile>
                     </fileSet>
                   </fileSets>
