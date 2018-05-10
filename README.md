@@ -1,6 +1,7 @@
 # libGDX snippets
 
-A collection of code snippets for the lazy [libGDX](https://github.com/libgdx/libgdx) user. I've forked it, because I couldn't compile the native libraries on both my Windows and Linux pc.
+A collection of code snippets for the lazy [libGDX](https://github.com/libgdx/libgdx) user.
+> Note: I've forked it, because I couldn't compile the native libraries on both my Windows and Linux pc.
 
 ## About
 
