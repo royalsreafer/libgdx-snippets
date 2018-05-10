@@ -1,6 +1,6 @@
 # libGDX snippets
 
-A collection of code snippets for the lazy [libGDX](https://github.com/libgdx/libgdx) user.
+A collection of code snippets for the lazy [libGDX](https://github.com/libgdx/libgdx) user. I've forked it, because I couldn't compile the native libraries on both my Windows and Linux pc.
 
 ## About
 
@@ -100,7 +100,7 @@ The steps below should work on every target system. You only need to specify a d
 # or, for OS X, using XCode
 > ./fips set config osx-xcode-release
 
-#or, for linux, using Make
+# or, for linux, using Make
 > ./fips set config linux-make-release
 ```
 
